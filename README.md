@@ -19,6 +19,7 @@ curl -i -u admin:rraman -H "X-Requested-By: ambari"  -X PUT  -d '{"RequestInfo":
 }
 export -f stop_all
 
+
 create_alias(){
 echo "alias $1='cd `pwd`'" >> ~/.bash_profile
 source ~/.bash_profile
