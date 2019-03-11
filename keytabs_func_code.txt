@@ -1,0 +1,1 @@
+"keytabs(){ for i in \`ls  /etc/security/keytabs/[a-z]*\`; do echo \"kinit -kt \$i \\\$(klist -kt \$i|grep -i '@'|awk '{print \\\$4}'|head -1)\"; done }"
