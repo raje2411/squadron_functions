@@ -1,4 +1,4 @@
-# squadron_functions
+# squadron_functions -  You can copy paste this code into your MAC ~/.bash_profile file ,  modify the password next to the keyword "sshpass -p "
 
 #Shell function to login to squadron machines.
 
